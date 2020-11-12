@@ -31,6 +31,10 @@ a {
   content: "";
 }
 
+.ml-18 {
+  margin-left: 18px;
+}
+
 /* button */
 .btn {
   padding: 10px 20px;
@@ -82,8 +86,13 @@ a {
   background-color: lightblue;
 }
 
+.nav-top .separator {
+  border-right: 2px solid grey;
+  padding-right: 20px;
+}
+
 .nav-top .l-list li i {
-  padding-right: 4px;
+  padding-right: 5px;
 }
 
 .nav-top .search {
