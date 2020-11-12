@@ -66,6 +66,15 @@ a {
   display: inline-block;
 }
 
+.nav .l-list a {
+  color: black;
+}
+
+.nav .r-list li {
+  margin-left: 20px;
+}
+
+/* nav-top */
 .nav-top {
   width: 100%;
   position: fixed;
@@ -73,12 +82,11 @@ a {
   background-color: lightblue;
 }
 
-.tl-list li {
-  margin-right: 20px;
+.nav-top .search {
+  color: black);
 }
 
-
-
+/* nav-bottom */
 .nav-bottom {
   margin-top: 100px;
 }
@@ -89,14 +97,6 @@ a {
 
 .header-logo {
   margin-top: 10px;
-}
-
-.l-list a {
-  color: black;
-}
-
-.r-list li {
-  margin-left: 20px;
 }
 
 /* jumbotron */
@@ -115,5 +115,6 @@ a {
   width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0px;
   background-color: #7addd0;
 }
