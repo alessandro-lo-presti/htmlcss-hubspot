@@ -73,8 +73,16 @@ a {
   background-color: lightblue;
 }
 
+.tl-list li {
+  margin-right: 20px;
+}
+
 .tl-list a {
   color: black;
+}
+
+.tr-list li {
+  margin-left: 20px;
 }
 
 .nav-bottom {
