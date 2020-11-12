@@ -82,6 +82,10 @@ a {
   background-color: lightblue;
 }
 
+.nav-top .l-list li i {
+  padding-right: 4px;
+}
+
 .nav-top .search {
   color: #33475b;
 }
