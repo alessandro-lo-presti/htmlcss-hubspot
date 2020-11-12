@@ -189,3 +189,9 @@ main {
 .crm-bottom-right {
   width: 70%;
 }
+
+/* footer */
+footer{
+  background-color: #32495b;
+  color: #cbd6e2; 
+}
