@@ -166,3 +166,26 @@ a {
 main {
   background-color: #f4f9fd;
 }
+
+/* crm-section */
+.crm div {
+  padding: 25px 0;
+}
+
+.crm-top {
+  text-align: center;
+}
+
+.crm-bottom {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+.crm-botton-left {
+  width: 30%;
+}
+
+.crm-bottom-right {
+  width: 70%;
+}
