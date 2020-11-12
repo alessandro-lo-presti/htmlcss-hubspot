@@ -47,7 +47,7 @@ a {
 }
 
 .btn-large {
-  padding: 15px 30px;
+  padding: 20px 40px;
 }
 
 /* header */
@@ -117,4 +117,23 @@ a {
   bottom: 0;
   left: 0px;
   background-color: #7addd0;
+}
+
+.jumbotron-container {
+  width: 50%;
+}
+
+.jumbotron h1 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.jumbotron p {
+  margin-bottom: 50px;
+}
+
+.p-small {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 13px;
 }
