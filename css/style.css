@@ -67,7 +67,7 @@ a {
 }
 
 .nav .l-list a {
-  color: black;
+  color: #33475b;
 }
 
 .nav .r-list li {
@@ -83,7 +83,7 @@ a {
 }
 
 .nav-top .search {
-  color: black);
+  color: #33475b;
 }
 
 /* nav-bottom */
@@ -92,7 +92,7 @@ a {
 }
 
 .nav-bottom a{
-  color: black
+  color: #33475b
 }
 
 .header-logo {
@@ -107,6 +107,7 @@ a {
   background-image: url("../img/jumbotron.png");
   background-position: bottom right;
   background-repeat: no-repeat;
+  color: #33475b;
 }
 
 .jumbotron::before{
@@ -126,13 +127,15 @@ a {
 .jumbotron h1 {
   padding-top: 50px;
   padding-bottom: 25px;
+  font-size: 55px;
 }
 
 .jumbotron p {
   margin-bottom: 50px;
+  font-size: 19px;
 }
 
-.p-small {
+.jumbotron .p-small {
   margin-top: 50px;
   margin-bottom: 0px;
   font-size: 13px;
