@@ -85,7 +85,7 @@ a {
   position: fixed;
   top: 0px;
   z-index: 1;
-  background-color: lightblue;
+  background-color: #f4f9fd;
   border-bottom: 1px solid #33475b;
 }
 
@@ -123,7 +123,7 @@ a {
 .jumbotron {
   height: 690px;
   position: relative;
-  background-color: #fff2ee;
+  background-color: #fff4ef;
   background-image: url("../img/jumbotron.png");
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ a {
   position: absolute;
   bottom: 0;
   left: 0px;
-  background-color: #7addd0;
+  background-color: #afebe4;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
