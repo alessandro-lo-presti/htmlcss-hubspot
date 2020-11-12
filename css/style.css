@@ -31,6 +31,25 @@ a {
   content: "";
 }
 
+/* button */
+.btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: #ff7a59;
+  border: #ff7a59 1px solid;
+  border-radius: 5px;
+}
+
+.btn-orange {
+  background-color: #ff7a59;
+  color: white;
+  border: none;
+}
+
+.btn-large {
+  padding: 15px 30px;
+}
+
 /* header */
 
 /* header-top */
@@ -47,10 +66,6 @@ a {
   display: inline-block;
 }
 
-.nav a {
-  color: black;
-}
-
 .nav-top {
   width: 100%;
   position: fixed;
@@ -58,8 +73,16 @@ a {
   background-color: lightblue;
 }
 
+.tl-list a {
+  color: black;
+}
+
 .nav-bottom {
   margin-top: 100px;
+}
+
+.nav-bottom a{
+  color: black
 }
 
 /* jumbotron */
