@@ -39,7 +39,14 @@
 }
 
 .nav-top {
+  width: 100%;
+  position: fixed;
+  top: 0px;
   background-color: lightblue;
+}
+
+.nav-bottom {
+  margin-top: 80px;
 }
 
 /* jumbotron */
