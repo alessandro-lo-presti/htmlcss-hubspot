@@ -50,3 +50,10 @@
 }
 
 /* jumbotron */
+.jumbotron {
+  height: 690px;
+  background-color: #fff2ee;
+  background-image: url("../img/jumbotron.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
