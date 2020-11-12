@@ -83,6 +83,7 @@ a {
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 1;
   background-color: lightblue;
   border-bottom: 1px solid #33475b;
 }
@@ -159,4 +160,9 @@ a {
   margin-top: 50px;
   margin-bottom: 0px;
   font-size: 13px;
+}
+
+/* main */
+main {
+  height: 100vh;
 }
