@@ -26,5 +26,20 @@
 /* header */
 
 /* header-top */
+.nav {
+  height: 80px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav-top {
+  background-color: lightblue;
+}
 
 /* jumbotron */
