@@ -9,6 +9,10 @@ body {
   color: #33475b;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -51,6 +55,12 @@ a {
   border: none;
 }
 
+.btn-footer {
+  background-color: #cbd6e2;
+  color: #32495b;
+  border: none;
+}
+
 .btn-large {
   padding: 20px 40px;
 }
@@ -61,10 +71,6 @@ a {
 .nav {
   height: 100px;
   line-height: 100px;
-}
-
-.nav ul {
-  list-style: none;
 }
 
 .nav li {
@@ -192,6 +198,23 @@ main {
 
 /* footer */
 footer{
+  height: 600px;
   background-color: #32495b;
-  color: #cbd6e2; 
+  color: #cbd6e2;
+}
+
+footer a {
+  color: #cbd6e2;
+}
+
+footer hr {
+  color: #cbd6e2;
+}
+
+.footer-column {
+  width: 25%;
+}
+
+.footer-column li {
+  padding-top: 25px;
 }
