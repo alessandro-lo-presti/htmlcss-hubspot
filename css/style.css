@@ -8,3 +8,23 @@
   width: 70%;
   margin: auto;
 }
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* header */
+
+/* header-top */
+
+/* jumbotron */
