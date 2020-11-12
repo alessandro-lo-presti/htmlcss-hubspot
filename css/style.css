@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -37,6 +45,10 @@
 
 .nav li {
   display: inline-block;
+}
+
+.nav a {
+  color: black;
 }
 
 .nav-top {
