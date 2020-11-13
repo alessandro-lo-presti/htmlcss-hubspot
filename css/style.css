@@ -187,8 +187,33 @@ main {
 }
 
 /* crm-section */
-.crm div {
-  padding: 25px 0;
+.crm {
+  padding: 60px 0;
+}
+
+.crm-row h3{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.crm-row h4 {
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.crm-row p{
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.crm i{
+  margin-right: 10px;
+  color: #ff7a59
+}
+
+.crm-row img{
+  height: 120px;
+  margin-bottom: 40px;
 }
 
 /* first-row */
@@ -198,22 +223,68 @@ main {
 
 /* second-row */
 .crm-row:nth-child(2) {
+  padding: 60px 0;
+  margin: 60px 0;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 5px lightgrey;
 }
 
-.crm-row:nth-child(2) .crm-row-left {
+.crm-row-left {
   text-align: center;
+  padding: 0 20px;
+  width: calc(30% - 40px);
+}
+
+.crm-row-right {
+  width: calc(70% - 40px);
+  padding: 0 20px;
+}
+
+.crm-row-right .crm-bar h4{
   width: 30%;
 }
 
-.crm-row:nth-child(2) img{
-  height: 120px;
+.crm-row-right .crm-bar hr{
+  width: calc(70% - 60px);
+  margin-left: 20px;
+  margin-top: 25px;
 }
 
-.crm-row:nth-child(2) .crm-row-right {
-  width: 70%;
+.crm-row-right .crm-list li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* third row */
+.crm-row:last-child {
+  text-align: center;
+}
+
+.crm-box {
+  width: 30%;
+  padding: 60px 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px lightgrey;
+}
+
+.crm-box:nth-child(2) {
+  margin: 0 5%;
+}
+
+.crm-box hr {
+  width: 80%;
+  margin: 60px auto 20px;
+}
+
+.crm-box .crm-list ul{
+  text-align: left;
+  margin: 30px 0 60px;
+}
+
+.crm-box .crm-list li{
+  margin-left: 35px;
 }
 
 /* footer */
