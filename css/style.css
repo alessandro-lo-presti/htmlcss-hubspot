@@ -344,11 +344,11 @@ main {
   background-color: white;
 }
 
-.growt-row:first-child {
+.growt-f-row {
   margin-bottom: 120px;
 }
 
-.growt-row:first-child .growt-box:first-child {
+.growt-f-row .growt-box:first-child {
   text-align: center;
 }
 
