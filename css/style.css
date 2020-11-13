@@ -123,7 +123,6 @@ a:hover {
 /* nav-bottom */
 .nav-bottom {
   margin-top: 100px;
-  box-shadow: 0 0 5px lightgrey;
 }
 
 .nav-bottom a{
@@ -146,6 +145,7 @@ a:hover {
   background-image: url("../img/jumbotron.png");
   background-position: bottom right;
   background-repeat: no-repeat;
+  box-shadow: 0 0 10px lightgrey;
 }
 
 .jumbotron::before{
@@ -339,47 +339,73 @@ main {
 }
 
 /* growt-section */
-.growt {
+.growth {
   padding: 60px 0;
   background-color: white;
 }
 
-.growt-f-row {
+.growth-f-row {
   margin-bottom: 120px;
 }
 
-.growt-f-row .growt-box:first-child {
+.growth-f-row .growth-box:first-child {
   text-align: center;
 }
 
-.growt-box {
+.growth-box {
   width: 50%;
 }
 
-.growt-box h2{
+.growth-box h2{
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.growt-box h3{
+.growth-s-row .growth-box:last-child {
+  text-align: center;
+}
+
+.growth-box h3{
   font-size: 42px;
   margin-bottom: 40px;
 }
 
-.growt-box .gp-big{
+.growth-box .gp-big{
   font-size: 18px;
   margin-bottom: 70px;
 }
 
-.growt-box .gp-little{
+.growth-box .gp-little{
   margin-top: 70px;
   font-size: 10px;
 }
 
-.growt-box .little-box {
+.growth-box .little-box {
   width: 35%;
   font-size: 14px;
   margin: auto;
+}
+
+/*growth img row*/
+.g-img-box {
+  width: 25%;
+  padding: 15px 0;
+}
+
+.g-img-box img {
+  width: 120px;
+}
+
+.fix-down-l {
+  padding-top: 20px;
+}
+
+.fix-down {
+  padding-top:25px;
+}
+
+.fix-down-w {
+  padding-top: 30px;
 }
 
 /* footer */
