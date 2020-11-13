@@ -292,6 +292,11 @@ main {
   padding: 60px 0;
   background: linear-gradient(#00a6bb, #00b8a9);
   color: white;
+  text-align: center;
+}
+
+.award h2 {
+  font-size: 34px;
 }
 
 .award-box {
