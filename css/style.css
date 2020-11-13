@@ -338,6 +338,35 @@ main {
   border-right: none;
 }
 
+/* growt-section */
+.growt {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.growt-row:first-child .growt-box:first-child {
+  text-align: center;
+}
+
+.growt-box {
+  width: 50%;
+}
+
+.growt-box h2{
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+
+.growt-box h3{
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.growt-box .little-box {
+  width: 35%;
+  margin: auto;
+}
+
 /* footer */
 footer{
   background-color: #32495b;
