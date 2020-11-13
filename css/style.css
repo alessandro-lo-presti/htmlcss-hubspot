@@ -290,6 +290,7 @@ main {
 /* award-section */
 .award {
   background: linear-gradient(#00a6bb, #00b8a9);
+  color: white;
 }
 
 .award-box {
