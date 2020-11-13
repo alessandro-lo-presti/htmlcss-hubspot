@@ -295,12 +295,30 @@ main {
   text-align: center;
 }
 
-.award h2 {
+.award-top h2 {
   font-size: 34px;
+}
+
+.award-top p {
+  margin: 40px 0;
+  line-height: 25px;
 }
 
 .award-box {
   width: 25%;
+}
+
+.award-box img {
+  margin-top: 25px;
+}
+
+.award-box h3 {
+  font-size: 45px;
+  margin: 10px 0 20px;
+}
+
+.award-box p {
+  margin-bottom: 25px;
 }
 
 .award-row:first-child .award-box {
@@ -314,7 +332,6 @@ main {
 
 .award-row:last-child .award-box {
   border-right: 1px solid white;
-  border-top: 1px solid white;
 }
 
 .award-row:last-child .award-box:last-child {
