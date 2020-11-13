@@ -386,6 +386,10 @@ main {
   margin: auto;
 }
 
+.growt-s-img {
+  height: 350px;
+}
+
 /*growth img row*/
 .g-img-box {
   width: 25%;
