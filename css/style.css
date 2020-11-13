@@ -344,6 +344,10 @@ main {
   background-color: white;
 }
 
+.growt-row:first-child {
+  margin-bottom: 120px;
+}
+
 .growt-row:first-child .growt-box:first-child {
   text-align: center;
 }
@@ -353,17 +357,28 @@ main {
 }
 
 .growt-box h2{
-  font-size: 38px;
-  margin-bottom: 50px;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .growt-box h3{
-  font-size: 26px;
-  margin-bottom: 50px;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.growt-box .gp-big{
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+.growt-box .gp-little{
+  margin-top: 70px;
+  font-size: 10px;
 }
 
 .growt-box .little-box {
   width: 35%;
+  font-size: 14px;
   margin: auto;
 }
 
