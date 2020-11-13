@@ -292,6 +292,10 @@ main {
   background: linear-gradient(#00a6bb, #00b8a9);
 }
 
+.award-box {
+  width: 25%;
+}
+
 /* footer */
 footer{
   background-color: #32495b;
