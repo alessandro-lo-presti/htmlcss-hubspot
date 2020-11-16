@@ -494,6 +494,7 @@ footer hr {
   color: black;
 }
 
+/* chat-top */
 .chat-robot-img img {
   position: absolute;
   top: -30px;
@@ -502,8 +503,17 @@ footer hr {
   width: 50px;
 }
 
+.chat-close {
+  text-align: right;
+}
+
+.chat-close i{
+  color: #32495b;
+  font-size: 20px;
+}
+
 .chat-msg {
-  padding: 20px 10px;
+  padding: 5px 10px 20px;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px lightgrey;
@@ -513,10 +523,11 @@ footer hr {
   font-size: 15px;
 }
 
-.chat-msg i{
+.chat-msg p i{
   color: #ffcc4d;
 }
 
+/* chat-bottom */
 .chat-bottom {
   margin-top: 25px;
   text-align: right;
