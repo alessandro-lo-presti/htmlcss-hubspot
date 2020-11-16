@@ -503,9 +503,14 @@ footer hr {
 }
 
 .chat-msg {
+  padding: 20px 10px;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px lightgrey;
+}
+
+.chat-msg p {
+  font-size: 15px;
 }
 
 .chat-msg i{
