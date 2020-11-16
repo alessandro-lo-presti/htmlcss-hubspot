@@ -494,11 +494,11 @@ footer hr {
   color: black;
 }
 
-.chat-robot-img {
-  text-align: center;
-}
-
 .chat-robot-img img {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 50px;
 }
 
