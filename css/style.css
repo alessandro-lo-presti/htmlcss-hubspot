@@ -491,7 +491,7 @@ footer hr {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  color: white;
+  color: black;
 }
 
 .chat-robot-img {
@@ -500,4 +500,13 @@ footer hr {
 
 .chat-robot-img img {
   width: 50px;
+}
+
+.chat-msg {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.chat-msg i{
+  color: #ffcc4d;
 }
