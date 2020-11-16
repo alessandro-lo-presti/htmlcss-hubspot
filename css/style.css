@@ -398,9 +398,10 @@ main {
 
 .g-img-box img {
   width: 120px;
+  vertical-align: middle;
 }
 
-.fix-down-l {
+/* .fix-down-l {
   padding-top: 20px;
 }
 
@@ -410,7 +411,7 @@ main {
 
 .fix-down-w {
   padding-top: 30px;
-}
+} */
 
 /* footer */
 footer{
