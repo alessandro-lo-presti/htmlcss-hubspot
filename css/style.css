@@ -489,8 +489,8 @@ footer hr {
 .chat {
   width: 250px;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 25px;
+  right: 20px;
   color: black;
 }
 
@@ -509,4 +509,17 @@ footer hr {
 
 .chat-msg i{
   color: #ffcc4d;
+}
+
+.chat-bottom {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.chat-bottom a {
+  padding: 15px;
+  border-radius: 50%;
+  background-color:#32495b;
+  color: white;
+  font-size: 28px;
 }
